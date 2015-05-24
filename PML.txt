@@ -1,0 +1,9 @@
+Model selected : knn / gbm
+Preprocess : PCA
+train control parameters : repeatedCV, repeats CV
+
+knn : I selected KNN for using example data to build the model and using similarity with example data during prediction of the new dataset.
+
+PCA : Eliminated the input parameters with zero variability with nzv analysis and then used PCA with 0.9 thresholdto  reduce no. of input variables for training.
+
+Repeated CV: In training used repeated CV to control out of sample errors.
